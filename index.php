@@ -1,5 +1,8 @@
 <?php
-	header('https://abhishek.name.np');
-	exit;
+// Set the new URL
+$new_url = "https://www.example.com/new-page.php";
+
+// Redirect to the new URL
+header("Location: " . $new_url);
+exit(); // Stop further script execution
 ?>
-Something is wrong with the XAMPP installation :-(
